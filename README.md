@@ -8,7 +8,7 @@ O sistema possui um frontend simples e intuitivo que permite realizar a busca at
 Feito isso, a API irá tratar de buscar esses produtos na base disponível na internet de produtos do grupo viavarejo através de uma única rota que facilita o acesso as lojas, sendo feito também uma verificação por produto para selecionar preços e avisos quando o mesmo está fora de estoque.
 
 ## Django Rest Framework
-O presente projeto serviu também para estudo desta tecnologia que permite criar API'S RestFul, sendo executando como plugin do django ao ser instalado em settings, foi utilizado os recursos iniciais como serializers que serve de atalho para captação das informações na API pública e APIView para criar a API recebendo os dados da requisição validando os dados de acordo com as regras implementadas na lõgica e por fim responder os dados.
+O presente projeto serviu também para estudo desta tecnologia que permite criar API'S RestFul, sendo executando como plugin do django ao ser instalado/configurado em settings.py do projeto principal, foi utilizado os recursos iniciais como serializers que serve de atalho para captação das informações na API pública e APIView para criar a API recebendo os dados da requisição validando os dados de acordo com as regras implementadas na lõgica e por fim responder os dados.
 
 ## Vue
 O framework frontend é utilizado separado da API com intuito de fornecer uma melhor visualização dos dados via JSON, foi utilizado recursos como Axios para fazer a ligação com a API.
